@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restraunt Mainu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <h1 id="mainHeading">Our Menu</h1>
+        <section id="choiceFoodListName">
+            <div onclick="all_Btn()" class="aLL">All</div>
+            <div onclick="bf_Btn()" class="breakFast">break Fast</div>
+            <div onclick="lunch_Btn()" class="Lunch">Lunch</div>
+            <div onclick="shakes_Btn()" class="Shakes">Shakes</div>
+        </section>
+    </div>
+
+    <div id="selectedItemsContainer">
+        <div id="close">
+
+            <div class="closeImgContainer">
+                <img src="./assets/close img.png" alt="">
+            </div> <br>
+
+            <section id="IPCkaParent">
+
+            </section>
+                       
+
+            <div class="totalContainer">
+                <div class="total">Total Price</div>
+                :
+                <div class="tPrice"></div>
+            </div>
+
+            <span onclick="purchase()" class="purchaseBtn">Purchase</span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
