@@ -180,7 +180,7 @@ function all_Btn() {
         </div>
         <div onclick="select_btn(this)" class="select_btn">Select</div>
     </div>`
-        foodItem.querySelector(".select_btn").setAttribute("onclick", `${id}()`);
+        // foodItem.querySelector(".select_btn").setAttribute("onclick", `${id}()`);
 
         console.log(foodItem, "all log");
 
